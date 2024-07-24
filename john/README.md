@@ -2,11 +2,11 @@
 
 ### Installation
 
-You can download the `john` files from [https://www.openwall.com/john/]:john
+You can download the `john` files from [https://www.openwall.com/john/]
 
 #### Step 1.
 
-In Windows download the zip file. [https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win64.zip]:x64, or if your using **x32** [https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win32.zip]:x32
+In Windows download the zip file. [https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win64.zip], or if your using **x32** [https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win32.zip]
 
 #### Step 2.
 
@@ -51,6 +51,8 @@ john zip.hash
 > ```powershell
 > Get-Content -Path "zip.hash" | Out-File -FilePath "your_encoded.txt" -Encoding utf8
 > ```
+>
+> *\*Note: this command is only available in PowerShell environment\**
 >
 > then run:
 >
